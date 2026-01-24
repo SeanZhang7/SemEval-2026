@@ -3,3 +3,6 @@
 /SemEval-2026/subTask2a/data/
 /SemEval-2026/subTask2b/data/
 /SemEval-2026/TRAIN_RELEASE_3SEP2025/
+SemEval-2026/__pycache__
+SemEval-2026/extremism
+SemEval-2026/liwc_script_output
