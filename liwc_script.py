@@ -42,8 +42,8 @@ def main(data: str, column, savedir: str, savename: str):
     save data
     """
     os.makedirs(savedir, exist_ok=True)
-    df.to_pickle(os.path.join(savedir, f"{savename}.fullframe.pickle"))
-    print("full dataframe saved to:", os.path.join(savedir, f"{savename}.fullframe.pickle"))
+    df.to_pickle(os.path.join(savedir, f"{savename}.pickle"))
+    print("full dataframe saved to:", os.path.join(savedir, f"{savename}.pickle"))
 
     print("liwc keys:")
     print(new_col_keys)
